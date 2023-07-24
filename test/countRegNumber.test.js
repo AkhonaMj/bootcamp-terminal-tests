@@ -1,7 +1,7 @@
 import assert from "assert";
 import countRegNumber from "../countRegNumber.js";
 
-describe('Count reg numbers function', function(){
+describe('CountRegNumbers function', function(){
 
     it('should count the number of registration numbers', function(){
         assert.equal(1, countRegNumber('CJ 123'));
