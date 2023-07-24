@@ -7,8 +7,11 @@ describe('regCheck function', function(){
         assert.equal(true, regCheck('SC 76 TU GP', 'GP'));
     });
     
-    it("It should return false for registration numbers that don't end with M", function(){
+    it("should return false for registration numbers that don't end with M", function(){
         assert.equal(false, regCheck('6463 L'));
     });
+    it("should return false for registration numbers that don't end with M", function(){
+        assert.equal(false, regCheck('FGT 658 78'));
+    });
   
-})
+});

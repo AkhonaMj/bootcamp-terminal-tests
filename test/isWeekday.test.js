@@ -10,5 +10,9 @@ describe('isWeekday function', function(){
     it('should return false if the day passed in is not a weekday', function(){
         assert.equal(false, isWeekday('Sunday'));
     });
+    it('should return true if the day passed in is a weekday', function(){
+        assert.equal(true, isWeekday('Wednesday'));
+    });
+    
   
 });

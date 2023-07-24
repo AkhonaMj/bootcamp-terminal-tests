@@ -9,5 +9,8 @@ describe('isFromBellville function', function(){
     it('should return false if the registration number does not start with CY', function(){
         assert.equal(false, isFromBellville(' CJ 3404'));
     });
+    it('should return false if the registration number does not start with CY', function(){
+        assert.equal(false, isFromBellville(' CF 3404'));
+    });
   
 })
